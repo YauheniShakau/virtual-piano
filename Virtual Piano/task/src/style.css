@@ -1,0 +1,43 @@
+body {
+    color: #1F2421;
+    background-color: #9CC5A1;
+    /*#1F2421 #216869 #49A078 #9CC5A1 #DCE1DE*/
+}
+
+.white-keys kbd {
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    width: 60px;
+    height: 260px;
+    background-color: white;
+    line-height: 400px;
+    text-align: center;
+    z-index: 1;
+}
+
+div.container {
+    width: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 10vh auto;
+}
+
+.black-keys kbd {
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+    width: 40px;
+    height: 190px;
+    background-color: black;
+    line-height: 300px;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 20px;
+    right: 10px;
+    z-index: 2;
+}
+#E {
+    margin-right: 63px;
+}
